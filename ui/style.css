@@ -2,12 +2,14 @@ body {
     font-family: sans-serif;
     
     margin-top: 75px;
-    background-color:#87CEFA;
+    
     
 }
 
 .center {
     text-align: center;
+    color:white
+    background-color:black;
 }
 
 .text-big {
