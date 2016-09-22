@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/ss', function (req, res) {
-  res.send('Hellow budyy Im Sunil Shinde');
+  res.send('<b>Hellow budyy</b> Im Sunil Shinde');
 });
 
 app.get('/', function (req, res) {
