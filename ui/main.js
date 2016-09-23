@@ -2,7 +2,8 @@ console.log('Loaded!');
 //remove content
 
 
-var element = document.getElementById('ss');
+var element = document.getElementById('ss'
+);
 
 
 element.innerHTML = 'elements removed';
