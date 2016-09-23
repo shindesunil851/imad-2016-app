@@ -1,4 +1,6 @@
 console.log('Loaded!');
-//change the text in main page
-var ele = document.getElementById('getter');
-ele.innerHTML="New Value";
+
+var img = document.getElementById('madi');
+img.onclick = function () {
+    img.style.marginleft = "100px";
+};
