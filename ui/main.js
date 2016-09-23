@@ -5,5 +5,5 @@ element.innerHTML = 'elements removed';
 //dfsdag
 var madi = document.getElementById('madi');
 madi.onclick = function () {
-    madi.style.marginleft = "10px";
+    madi.style.marginleft = "100px";
 };
