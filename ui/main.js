@@ -9,9 +9,9 @@ element.innerHTML = 'elements removed';
 //dfsdag
 
 
-var madi = document.getElementById('madi');
+var img = document.getElementById('madi');
 
 
-madi.onclick = function () {
-    madi.style.marginleft = "100px";
+img.onclick = function () {
+    img.style.marginleft = "100px";
 };
