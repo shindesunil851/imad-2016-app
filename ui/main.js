@@ -1,6 +1,6 @@
 console.log('Loaded!');
 //remove content
-var element = getElementById('ss');
+var element = document.getElementById('ss');
 element.innerHTML = 'HI Everyone';
 //
 var img = document.getElementById('madi');
