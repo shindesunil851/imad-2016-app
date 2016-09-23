@@ -1,9 +1,9 @@
 console.log('Loaded!');
 //remove content
 var element = document.getElementById('ss');
-element.innerHTML = 'HI Everyone';
+element.innerHTML = 'elements removed';
 //
-var img = document.getElementById('madi');
-img.onclick = function () {
-    img.style.marginleft = "100px";
+var madi = document.getElementById('madi');
+madi.onclick = function () {
+    madi.style.marginleft = "10px";
 };
