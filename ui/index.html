@@ -18,11 +18,24 @@
          <div class = "container-fluid">
               <marquee direction=right> <h1>   HI  im Sunil Shinde </h1></marquee>
                <h2> Welcome To My First WebApp </h2>
-      <button class = "btn btn-info"> click here</button>
+      <button class = "btn btn-info" id='button'> click here</button>
       
        </div>    
     
          <script type="text/javascript" src="/ui/main.js">
         </script>
+        
+         <script> 
+         
+         $(document).ready(function(){
+        $('#button').click({
+            
+              $('#madi').hide();
+        })
+        
+         } )
+        
+         </script>
+         
     </body>
 </html>
